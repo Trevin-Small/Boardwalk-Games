@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044141AC24885AFB005C44C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044141AB24885AFB005C44C6 /* Assets.xcassets */; };
+		044141B324885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 044141B224885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		044141B824885AFB005C44C6 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044141B724885AFB005C44C6 /* Messages.framework */; };
+		044141BB24885AFB005C44C6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044141BA24885AFB005C44C6 /* MessagesViewController.swift */; };
+		044141BE24885AFB005C44C6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044141BC24885AFB005C44C6 /* MainInterface.storyboard */; };
+		044141C024885AFC005C44C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044141BF24885AFC005C44C6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044141B424885AFB005C44C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044141A224885AFA005C44C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044141B124885AFB005C44C6;
+			remoteInfo = "Boardwalk! Games MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		044141C724885AFC005C44C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				044141B324885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		044141A824885AFA005C44C6 /* Boardwalk! Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boardwalk! Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044141AB24885AFB005C44C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044141AD24885AFB005C44C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044141B224885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Boardwalk! Games MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044141B724885AFB005C44C6 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		044141BA24885AFB005C44C6 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		044141BD24885AFB005C44C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		044141BF24885AFC005C44C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044141C124885AFC005C44C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044141AF24885AFB005C44C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044141B824885AFB005C44C6 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044141A124885AFA005C44C6 = {
+			isa = PBXGroup;
+			children = (
+				044141AA24885AFA005C44C6 /* Boardwalk! Games */,
+				044141B924885AFB005C44C6 /* Boardwalk! Games MessagesExtension */,
+				044141B624885AFB005C44C6 /* Frameworks */,
+				044141A924885AFA005C44C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044141A924885AFA005C44C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044141A824885AFA005C44C6 /* Boardwalk! Games.app */,
+				044141B224885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044141AA24885AFA005C44C6 /* Boardwalk! Games */ = {
+			isa = PBXGroup;
+			children = (
+				044141AB24885AFB005C44C6 /* Assets.xcassets */,
+				044141AD24885AFB005C44C6 /* Info.plist */,
+			);
+			path = "Boardwalk! Games";
+			sourceTree = "<group>";
+		};
+		044141B624885AFB005C44C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044141B724885AFB005C44C6 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		044141B924885AFB005C44C6 /* Boardwalk! Games MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				044141BA24885AFB005C44C6 /* MessagesViewController.swift */,
+				044141BC24885AFB005C44C6 /* MainInterface.storyboard */,
+				044141BF24885AFC005C44C6 /* Assets.xcassets */,
+				044141C124885AFC005C44C6 /* Info.plist */,
+			);
+			path = "Boardwalk! Games MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044141A724885AFA005C44C6 /* Boardwalk! Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044141C824885AFC005C44C6 /* Build configuration list for PBXNativeTarget "Boardwalk! Games" */;
+			buildPhases = (
+				044141A624885AFA005C44C6 /* Resources */,
+				044141C724885AFC005C44C6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044141B524885AFB005C44C6 /* PBXTargetDependency */,
+			);
+			name = "Boardwalk! Games";
+			productName = "Boardwalk! Games";
+			productReference = 044141A824885AFA005C44C6 /* Boardwalk! Games.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		044141B124885AFB005C44C6 /* Boardwalk! Games MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044141C424885AFC005C44C6 /* Build configuration list for PBXNativeTarget "Boardwalk! Games MessagesExtension" */;
+			buildPhases = (
+				044141AE24885AFB005C44C6 /* Sources */,
+				044141AF24885AFB005C44C6 /* Frameworks */,
+				044141B024885AFB005C44C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boardwalk! Games MessagesExtension";
+			productName = "Boardwalk! Games MessagesExtension";
+			productReference = 044141B224885AFB005C44C6 /* Boardwalk! Games MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044141A224885AFA005C44C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "AKT Games";
+				TargetAttributes = {
+					044141A724885AFA005C44C6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					044141B124885AFB005C44C6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 044141A524885AFA005C44C6 /* Build configuration list for PBXProject "Boardwalk! Games" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044141A124885AFA005C44C6;
+			productRefGroup = 044141A924885AFA005C44C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044141A724885AFA005C44C6 /* Boardwalk! Games */,
+				044141B124885AFB005C44C6 /* Boardwalk! Games MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044141A624885AFA005C44C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044141AC24885AFB005C44C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044141B024885AFB005C44C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044141C024885AFC005C44C6 /* Assets.xcassets in Resources */,
+				044141BE24885AFB005C44C6 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044141AE24885AFB005C44C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044141BB24885AFB005C44C6 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044141B524885AFB005C44C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044141B124885AFB005C44C6 /* Boardwalk! Games MessagesExtension */;
+			targetProxy = 044141B424885AFB005C44C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044141BC24885AFB005C44C6 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044141BD24885AFB005C44C6 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044141C224885AFC005C44C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044141C324885AFC005C44C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044141C524885AFC005C44C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQ2K2WN89;
+				INFOPLIST_FILE = "Boardwalk! Games MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aktgames.Boardwalk--Games.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044141C624885AFC005C44C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQ2K2WN89;
+				INFOPLIST_FILE = "Boardwalk! Games MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aktgames.Boardwalk--Games.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044141C924885AFC005C44C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQ2K2WN89;
+				INFOPLIST_FILE = "Boardwalk! Games/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aktgames.Boardwalk--Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044141CA24885AFC005C44C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQ2K2WN89;
+				INFOPLIST_FILE = "Boardwalk! Games/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aktgames.Boardwalk--Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044141A524885AFA005C44C6 /* Build configuration list for PBXProject "Boardwalk! Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044141C224885AFC005C44C6 /* Debug */,
+				044141C324885AFC005C44C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044141C424885AFC005C44C6 /* Build configuration list for PBXNativeTarget "Boardwalk! Games MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044141C524885AFC005C44C6 /* Debug */,
+				044141C624885AFC005C44C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044141C824885AFC005C44C6 /* Build configuration list for PBXNativeTarget "Boardwalk! Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044141C924885AFC005C44C6 /* Debug */,
+				044141CA24885AFC005C44C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044141A224885AFA005C44C6 /* Project object */;
+}
